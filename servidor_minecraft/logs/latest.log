@@ -1,0 +1,1336 @@
+[28Mar2026 18:40:49.030] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[28Mar2026 18:40:49.034] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1044-azure
+[28Mar2026 18:40:49.126] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/silver-invention/servidor_minecraft/config/fml.toml is not correct. Correcting
+[28Mar2026 18:40:49.128] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[28Mar2026 18:40:49.128] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[28Mar2026 18:40:49.129] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[28Mar2026 18:40:49.129] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[28Mar2026 18:40:49.260] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[28Mar2026 18:40:49.308] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/silver-invention/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[28Mar2026 18:40:49.539] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/silver-invention/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[28Mar2026 18:40:49.540] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/silver-invention/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[28Mar2026 18:40:49.542] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/silver-invention/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[28Mar2026 18:40:49.543] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/silver-invention/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[28Mar2026 18:40:49.699] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[28Mar2026 18:40:51.379] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[28Mar2026 18:40:51.406] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[28Mar2026 18:40:58.085] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[28Mar2026 18:40:58.086] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[28Mar2026 18:40:58.130] [modloading-worker-0/WARN] [SkinRestorer/]: Could not load config
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonObject.has(String)" because "json" is null
+	at net.lionarius.skinrestorer.util.JsonMigrator.detectVersion(JsonMigrator.java:33) ~[skinrestorer-2.7.0+1.20-forge.jar%23115!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.util.JsonMigrator.migrateToLatest(JsonMigrator.java:39) ~[skinrestorer-2.7.0+1.20-forge.jar%23115!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.config.Config.load(Config.java:52) ~[skinrestorer-2.7.0+1.20-forge.jar%23115!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.SkinRestorer.reloadConfig(SkinRestorer.java:177) ~[skinrestorer-2.7.0+1.20-forge.jar%23115!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.SkinRestorer.onInitialize(SkinRestorer.java:83) ~[skinrestorer-2.7.0+1.20-forge.jar%23115!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.forge.SkinRestorerForge.<init>(SkinRestorerForge.java:16) ~[skinrestorer-2.7.0+1.20-forge.jar%23115!/:2.7.0+1.20-forge]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.4.10.jar%23119!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.4.10.jar%23118!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[28Mar2026 18:40:58.236] [modloading-worker-0/WARN] [net.spellcraftgaming.rpghud.main.ModRPGHud/]: RPG-Hud is a client-side-only mod and should not be installed server-side, please remove it from your server
+[28Mar2026 18:40:59.799] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/silver-invention/servidor_minecraft/config/jujutsucraft.toml is not correct. Correcting
+[28Mar2026 18:40:59.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[28Mar2026 18:40:59.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.forceRandomCursedTechnique was corrected from null to its default, false. 
+[28Mar2026 18:40:59.802] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.doVanillaMobSpawning was corrected from null to its default, false. 
+[28Mar2026 18:40:59.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[28Mar2026 18:40:59.850] [main/INFO] [journeymap/]: Initializing Packet Registries
+[28Mar2026 18:40:59.957] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[28Mar2026 18:41:00.005] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[28Mar2026 18:41:00.016] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[28Mar2026 18:41:00.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[28Mar2026 18:41:00.281] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[28Mar2026 18:41:00.413] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[28Mar2026 18:41:01.707] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[28Mar2026 18:41:01.739] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/silver-invention/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
+[28Mar2026 18:41:01.740] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/silver-invention/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
+[28Mar2026 18:41:02.893] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:ten_shadows_technique as it is missing following references: jujutsucraft:eight_handled_swrod_divergent_sila_divine_general_mahoraga (from jujutsu_kaisen_gt_2-54.3-forge-1.20.1 (1).jar)
+[28Mar2026 18:41:02.951] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:banitem as it is missing following references: jujutsucrafts:item_tengen (from jujutsu_kaisen_gt_2-54.3-forge-1.20.1 (1).jar), 
+	jujutsucrafts:cursed_technique_changer_2 (from jujutsu_kaisen_gt_2-54.3-forge-1.20.1 (1).jar)
+[28Mar2026 18:41:03.795] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[28Mar2026 18:41:03.889] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement jujutsu_kaisen_gt_2:two_cursed_technique_born: Expected item to be an item, was unknown string 'jujutsu_kaisen_gt_2:deleted_mod_element'
+[28Mar2026 18:41:03.952] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1489 advancements
+[28Mar2026 18:41:04.479] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[28Mar2026 18:41:04.479] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28Mar2026 18:41:04.480] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28Mar2026 18:41:04.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Mar2026 18:41:04.667] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28Mar2026 18:41:04.691] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[28Mar2026 18:41:04.780] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[28Mar2026 18:41:04.781] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[28Mar2026 18:41:04.781] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[28Mar2026 18:41:04.782] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[28Mar2026 18:41:04.803] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[28Mar2026 18:41:04.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[28Mar2026 18:41:04.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[28Mar2026 18:41:04.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[28Mar2026 18:41:04.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[28Mar2026 18:41:04.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[28Mar2026 18:41:04.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[28Mar2026 18:41:04.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[28Mar2026 18:41:04.807] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[28Mar2026 18:41:04.807] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+[28Mar2026 18:41:04.810] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
+[28Mar2026 18:41:04.810] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
+[28Mar2026 18:41:04.811] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
+[28Mar2026 18:41:04.811] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
+[28Mar2026 18:41:04.812] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[28Mar2026 18:41:04.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28Mar2026 18:41:09.927] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--1 absolute]
+[28Mar2026 18:41:10.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Mar2026 18:41:12.012] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Mar2026 18:41:12.013] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Mar2026 18:41:12.013] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Mar2026 18:41:12.250] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Mar2026 18:41:12.754] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Mar2026 18:41:13.245] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[28Mar2026 18:41:13.748] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Mar2026 18:41:14.247] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[28Mar2026 18:41:14.749] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[28Mar2026 18:41:15.248] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[28Mar2026 18:41:15.753] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[28Mar2026 18:41:16.245] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[28Mar2026 18:41:16.746] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[28Mar2026 18:41:17.250] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[28Mar2026 18:41:17.749] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[28Mar2026 18:41:18.246] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[28Mar2026 18:41:18.746] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[28Mar2026 18:41:19.247] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[28Mar2026 18:41:19.748] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[28Mar2026 18:41:20.247] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[28Mar2026 18:41:20.746] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[28Mar2026 18:41:21.245] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[28Mar2026 18:41:21.751] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[28Mar2026 18:41:22.250] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
+[28Mar2026 18:41:22.746] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[28Mar2026 18:41:23.249] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[28Mar2026 18:41:23.749] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[28Mar2026 18:41:24.246] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[28Mar2026 18:41:24.746] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[28Mar2026 18:41:25.155] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 14411 ms
+[28Mar2026 18:41:25.156] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (20.354s)! For help, type "help"
+[28Mar2026 18:41:25.177] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[28Mar2026 18:41:25.186] [Server thread/INFO] [journeymap/]: global (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.global.config
+[28Mar2026 18:41:25.187] [Server thread/INFO] [journeymap/]: global (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.global.config
+[28Mar2026 18:41:25.196] [Server thread/INFO] [journeymap/]: default (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.default.config
+[28Mar2026 18:41:25.197] [Server thread/INFO] [journeymap/]: default (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.default.config
+[28Mar2026 18:41:25.199] [Server thread/INFO] [journeymap/]: minecraft~overworld (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~overworld.config
+[28Mar2026 18:41:25.199] [Server thread/INFO] [journeymap/]: minecraft~overworld (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~overworld.config
+[28Mar2026 18:41:25.206] [Server thread/INFO] [journeymap/]: minecraft~the_end (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_end.config
+[28Mar2026 18:41:25.207] [Server thread/INFO] [journeymap/]: minecraft~the_end (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_end.config
+[28Mar2026 18:41:25.209] [Server thread/INFO] [journeymap/]: jujutsucraft~cursed_spirit_manipulation_dimension (Initialized) Setting config file to version "5.10.3": journeymap.server.jujutsucraft~cursed_spirit_manipulation_dimension.config
+[28Mar2026 18:41:25.209] [Server thread/INFO] [journeymap/]: jujutsucraft~cursed_spirit_manipulation_dimension (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.jujutsucraft~cursed_spirit_manipulation_dimension.config
+[28Mar2026 18:41:25.211] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_nether.config
+[28Mar2026 18:41:25.211] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_nether.config
+[28Mar2026 18:42:05.485] [ForkJoinPool.commonPool-worker-1/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:king_by2002'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md1439ef$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:596) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:596) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md1439ef$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:580) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[28Mar2026 18:42:05.552] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: king_by2002[/127.215.206.44:42691] logged in with entity id 103 at (-349.5, 76.0, -409.5)
+[28Mar2026 18:42:05.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 joined the game
+[28Mar2026 18:42:05.714] [Server thread/INFO] [Jade/]: Syncing config to king_by2002 (2794b990-d76d-3e59-8014-374b2b82c1b7)
+[28Mar2026 18:42:05.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Start Jujutsu Craft]
+[28Mar2026 18:42:05.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Jujutsu Craft GT]
+[28Mar2026 18:42:05.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Jujutsu Craft GT Skills]
+[28Mar2026 18:42:05.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Born to be a Sorcerer]
+[28Mar2026 18:42:05.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Advancement Tutorial]
+[28Mar2026 18:42:21.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Projection Sorcery]
+[28Mar2026 18:42:21.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Select Technique]
+[28Mar2026 18:42:54.579] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iJFC[/127.129.252.76:43167] logged in with entity id 357 at (-346.5, 77.0, -407.5)
+[28Mar2026 18:42:54.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC joined the game
+[28Mar2026 18:42:54.653] [Server thread/INFO] [Jade/]: Syncing config to iJFC (b55d212c-8aed-37df-8391-d5c8da7babdb)
+[28Mar2026 18:42:54.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Start Jujutsu Craft]
+[28Mar2026 18:42:54.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Jujutsu Craft GT]
+[28Mar2026 18:42:54.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Jujutsu Craft GT Skills]
+[28Mar2026 18:42:54.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Born to be a Sorcerer]
+[28Mar2026 18:42:54.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Advancement Tutorial]
+[28Mar2026 18:43:07.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Insect]
+[28Mar2026 18:43:11.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Insect]
+[28Mar2026 18:43:12.338] [ForkJoinPool.commonPool-worker-1/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:uekee340'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md1439ef$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:596) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:596) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md1439ef$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:580) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[28Mar2026 18:43:12.376] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: uekee340[/127.79.218.166:36029] logged in with entity id 451 at (-354.5, 75.0, -407.5)
+[28Mar2026 18:43:12.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 joined the game
+[28Mar2026 18:43:12.412] [Server thread/INFO] [Jade/]: Syncing config to uekee340 (0bc62d06-0901-38a9-b1d6-aefe5bf603a6)
+[28Mar2026 18:43:12.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Start Jujutsu Craft]
+[28Mar2026 18:43:12.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Jujutsu Craft GT]
+[28Mar2026 18:43:12.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Jujutsu Craft GT Skills]
+[28Mar2026 18:43:12.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Born to be a Sorcerer]
+[28Mar2026 18:43:12.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Advancement Tutorial]
+[28Mar2026 18:43:41.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Select Technique]
+[28Mar2026 18:44:30.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made iJFC a server operator
+[28Mar2026 18:44:33.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 18:44:48.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 18:45:16.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Reverse Cursed Technique [Lv.1]  Mastered]
+[28Mar2026 18:45:31.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gamerule keepInventory is now set to: true]
+[28Mar2026 18:45:41.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Reverse Cursed Technique [Lv.2] Mastered]
+[28Mar2026 18:45:55.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-349, y=80, z=-391}
+[28Mar2026 18:45:55.879] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-349, y=79, z=-390}
+[28Mar2026 18:45:55.972] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-350, y=79, z=-390}
+[28Mar2026 18:45:56.030] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-349, y=79, z=-390}
+[28Mar2026 18:45:56.147] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-349, y=78, z=-389}
+[28Mar2026 18:45:56.323] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-350, y=79, z=-390}
+[28Mar2026 18:46:37.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Select Technique]
+[28Mar2026 18:47:22.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:47:22.651] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2285ms or 45 ticks behind
+[28Mar2026 18:47:28.329] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-359, y=88, z=-404}
+[28Mar2026 18:47:45.323] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-352, y=80, z=-404}
+[28Mar2026 18:48:31.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Cursed Technique Changer] to uekee340]
+[28Mar2026 18:48:57.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Divine Dogs]
+[28Mar2026 18:48:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Ten Shadows Technique]
+[28Mar2026 18:48:59.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 18:49:11.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 18:49:25.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Copy]
+[28Mar2026 18:49:47.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set the time to 11996]
+[28Mar2026 18:49:51.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 18:49:58.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 18:50:18.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gamerule gTOriginalCopy is now set to: true]
+[28Mar2026 18:50:29.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Fame -4-]
+[28Mar2026 18:50:29.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Fame -4-]
+[28Mar2026 18:50:34.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:50:35.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Reverse Cursed Technique [Lv.1]  Mastered]
+[28Mar2026 18:50:36.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Force to submit the Rabbit Escape]
+[28Mar2026 18:50:42.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Six Eyes]
+[28Mar2026 18:50:44.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Fame -3-]
+[28Mar2026 18:50:52.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:50:57.211] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved wrongly!
+[28Mar2026 18:51:00.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 18:51:22.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 18:51:24.564] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-344, y=77, z=-413}
+[28Mar2026 18:51:24.625] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-344, y=77, z=-414}
+[28Mar2026 18:51:26.514] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-347, y=77, z=-413}
+[28Mar2026 18:51:34.715] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-348, y=77, z=-412}
+[28Mar2026 18:51:40.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 18:51:47.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:51:48.885] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-355, y=89, z=-402}
+[28Mar2026 18:51:49.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gamerule jujutsuPVP is now set to: false]
+[28Mar2026 18:52:06.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:52:10.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 18:52:13.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 18:52:26.210] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-341, y=90, z=-400}
+[28Mar2026 18:52:26.378] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-341, y=90, z=-400}
+[28Mar2026 18:52:26.432] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-340, y=89, z=-400}
+[28Mar2026 18:52:26.681] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-340, y=89, z=-400}
+[28Mar2026 18:52:31.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Cursed Technique Changer] to uekee340]
+[28Mar2026 18:52:40.402] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 moved too quickly! 14.061691959894233,-2.0,-24.065194270317534
+[28Mar2026 18:52:40.630] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 moved too quickly! -14.061691959894233,2.0,24.065194270317534
+[28Mar2026 18:52:44.228] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-337, y=77, z=-410}
+[28Mar2026 18:52:49.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 18:52:57.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 18:53:02.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:53:13.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:53:32.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 18:53:45.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 18:53:57.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:54:10.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:54:15.450] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 moved too quickly! -9.63182512636962,-1.0685099617940494,-4.673303231268221
+[28Mar2026 18:54:16.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Grade 4 Sorcerer]
+[28Mar2026 18:54:19.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Cursed Technique Changer] to uekee340]
+[28Mar2026 18:54:33.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Cursed Technique Changer] to uekee340]
+[28Mar2026 18:54:34.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:54:34.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 18:54:34.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 18:54:44.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 18:54:50.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 18:54:57.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:54:58.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Cursed Technique Changer] to king_by2002]
+[28Mar2026 18:55:06.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported 3 entities to iJFC]
+[28Mar2026 18:55:07.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Idle Transfiguration]
+[28Mar2026 18:55:08.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Fame -4-]
+[28Mar2026 18:55:08.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Fame -3-]
+[28Mar2026 18:55:08.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Fame -3-]
+[28Mar2026 18:55:16.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Blood Manipulation]
+[28Mar2026 18:55:21.986] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: nazuna_nanakusa[/127.58.252.126:36487] logged in with entity id 10301 at (-345.5, 79.0, -392.5)
+[28Mar2026 18:55:21.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa joined the game
+[28Mar2026 18:55:22.047] [Server thread/INFO] [Jade/]: Syncing config to nazuna_nanakusa (99b784bc-0a9c-3ad8-a0f0-0c08d12ba8dc)
+[28Mar2026 18:55:22.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Start Jujutsu Craft]
+[28Mar2026 18:55:22.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Jujutsu Craft GT]
+[28Mar2026 18:55:22.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Jujutsu Craft GT Skills]
+[28Mar2026 18:55:22.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Born to be a Sorcerer]
+[28Mar2026 18:55:22.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has completed the challenge [Advancement Tutorial]
+[28Mar2026 18:55:39.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 18:55:49.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 18:56:08.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported 4 entities to iJFC]
+[28Mar2026 18:56:13.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set the world spawn point to -517, 68, -131 [0.0]]
+[28Mar2026 18:56:23.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set spawn point to -517, 68, -131 [0.0] in minecraft:overworld for 4 players]
+[28Mar2026 18:56:25.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Fame -4-]
+[28Mar2026 18:56:25.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Fame -3-]
+[28Mar2026 18:56:25.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 18:56:27.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 18:56:29.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Copy]
+[28Mar2026 18:56:29.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Select Technique]
+[28Mar2026 18:56:30.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Black Flash]
+[28Mar2026 18:56:32.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Grade 4 Sorcerer]
+[28Mar2026 18:56:32.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Grade 4 Sorcerer]
+[28Mar2026 18:56:59.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 18:57:11.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Divergent Fist]
+[28Mar2026 18:57:11.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Yuji Itadori's Skill]
+[28Mar2026 18:57:23.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 18:57:23.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was doomed to fall by Cursed Spirit Grade 2
+[28Mar2026 18:57:35.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Six Eyes]
+[28Mar2026 18:57:41.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa was doomed to fall by Cursed Spirit Grade 2
+[28Mar2026 18:57:51.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Fame -2-]
+[28Mar2026 18:57:54.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Hunger for Luck]
+[28Mar2026 18:58:02.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Aoi Todo]
+[28Mar2026 18:58:03.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Deep Concentration]
+[28Mar2026 18:58:04.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Reverse Cursed Technique [Lv.2] Mastered]
+[28Mar2026 18:58:06.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa was doomed to fall by Cursed Spirit Grade 3
+[28Mar2026 18:58:16.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 18:58:44.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 18:58:44.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Black Flash]
+[28Mar2026 18:58:45.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Simple Domain Mastered]
+[28Mar2026 18:58:47.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Grade 3 Sorcerer]
+[28Mar2026 18:59:11.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Reverse Cursed Technique Mastery] to iJFC]
+[28Mar2026 18:59:12.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Reverse Cursed Technique [Lv.1]  Mastered]
+[28Mar2026 18:59:13.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 18:59:18.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 18:59:32.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Semi-Grade 2 Sorcerer]
+[28Mar2026 18:59:40.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Negi]
+[28Mar2026 18:59:48.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Twin]
+[28Mar2026 18:59:49.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Grade 4 Sorcerer]
+[28Mar2026 19:00:03.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Flowing Red Scale]
+[28Mar2026 19:00:03.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Grade 3 Sorcerer]
+[28Mar2026 19:00:09.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:01:01.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Insect]
+[28Mar2026 19:01:28.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set the time to 4014]
+[28Mar2026 19:01:29.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set the time to 6036]
+[28Mar2026 19:01:30.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set the time to 8051]
+[28Mar2026 19:01:30.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set the time to 10067]
+[28Mar2026 19:01:31.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Stone Age]
+[28Mar2026 19:01:31.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set the time to 12084]
+[28Mar2026 19:01:32.868] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/18810, l='ServerLevel[world]', x=-544.99, y=69.00, z=-368.01] died, message: 'Toolsmith died'
+[28Mar2026 19:01:42.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Getting an Upgrade]
+[28Mar2026 19:01:44.688] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Armorer'/18809, l='ServerLevel[world]', x=-530.56, y=69.94, z=-380.56] died, message: 'Armorer died'
+[28Mar2026 19:01:59.603] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Armorer'/13551, l='ServerLevel[world]', x=-525.50, y=70.00, z=-340.50] died, message: 'Armorer died'
+[28Mar2026 19:02:03.688] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/13550, l='ServerLevel[world]', x=-528.53, y=70.00, z=-338.63] died, message: 'Toolsmith died'
+[28Mar2026 19:02:24.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Domain Expansion Mastered]
+[28Mar2026 19:02:27.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Negi]
+[28Mar2026 19:02:46.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:02:56.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:03:13.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:03:18.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:03:32.885] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/24868, l='ServerLevel[world]', x=108.50, y=70.00, z=301.50] died, message: 'Unemployed died'
+[28Mar2026 19:03:34.581] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/25594, l='ServerLevel[world]', x=116.50, y=71.00, z=300.50] died, message: 'Unemployed died'
+[28Mar2026 19:03:36.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Simple Domain Mastered]
+[28Mar2026 19:03:42.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:03:52.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [I'm also a Sorcerer]
+[28Mar2026 19:03:54.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 19:03:54.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:03:57.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Grade 2 Sorcerer]
+[28Mar2026 19:04:09.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:04:23.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Fame -1-]
+[28Mar2026 19:04:23.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Fame -2-]
+[28Mar2026 19:04:23.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has made the advancement [Fame -1-]
+[28Mar2026 19:04:41.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Inverse]
+[28Mar2026 19:04:41.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has reached the goal [Inverse]
+[28Mar2026 19:04:44.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:04:57.534] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-537, y=64, z=-126} BlockPos{x=-512, y=67, z=-133}
+[28Mar2026 19:04:57.787] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-537, y=64, z=-126} BlockPos{x=-512, y=67, z=-132}
+[28Mar2026 19:04:58.084] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-537, y=64, z=-126} BlockPos{x=-514, y=67, z=-131}
+[28Mar2026 19:04:58.284] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-537, y=64, z=-126} BlockPos{x=-514, y=67, z=-132}
+[28Mar2026 19:04:58.484] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-537, y=64, z=-126} BlockPos{x=-513, y=67, z=-132}
+[28Mar2026 19:04:58.617] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-537, y=64, z=-126} BlockPos{x=-512, y=67, z=-132}
+[28Mar2026 19:04:58.683] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-537, y=64, z=-126} BlockPos{x=-512, y=68, z=-131}
+[28Mar2026 19:05:23.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 19:05:26.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Fame -2-]
+[28Mar2026 19:05:27.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:05:27.747] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nazuna_nanakusa moved wrongly!
+[28Mar2026 19:05:45.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 19:05:50.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Adventure Mode]
+[28Mar2026 19:05:54.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Fame -1-]
+[28Mar2026 19:06:02.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:06:10.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Hanger Rack]
+[28Mar2026 19:06:10.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Semi-Grade 1 Sorcerer]
+[28Mar2026 19:06:27.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:06:28.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:06:34.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to nazuna_nanakusa]
+[28Mar2026 19:07:07.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa has reached the goal [Reverse Cursed Technique [Lv.1]  Mastered]
+[28Mar2026 19:07:08.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:07:25.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Soul Multiplicity]
+[28Mar2026 19:07:25.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Grade 3 Sorcerer]
+[28Mar2026 19:07:54.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:08:17.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:08:47.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 19:08:57.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Reverse Cursed Technique [Lv.2] Mastered]
+[28Mar2026 19:09:12.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:09:12.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:09:13.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:09:19.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:09:23.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:09:27.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:09:27.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:09:42.404] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nazuna_nanakusa moved too quickly! -6.31209171053456,2.836131606991856,-7.536037705494493
+[28Mar2026 19:09:46.433] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nazuna_nanakusa was kicked for floating too long!
+[28Mar2026 19:09:46.493] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nazuna_nanakusa lost connection: Flying is not enabled on this server
+[28Mar2026 19:09:46.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa left the game
+[28Mar2026 19:09:55.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Subjugation Mission -Kenjaku-]
+[28Mar2026 19:09:55.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Grade 1 Sorcerer]
+[28Mar2026 19:09:58.767] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: nazuna_nanakusa[/127.58.252.126:42165] logged in with entity id 47229 at (-567.6298480282251, 71.82299142903042, -172.69235308671367)
+[28Mar2026 19:09:58.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa joined the game
+[28Mar2026 19:09:58.799] [Server thread/INFO] [Jade/]: Syncing config to nazuna_nanakusa (99b784bc-0a9c-3ad8-a0f0-0c08d12ba8dc)
+[28Mar2026 19:10:09.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Fame -Special-]
+[28Mar2026 19:10:09.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -13-]
+[28Mar2026 19:10:16.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:10:18.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Strongest Shikigami]
+[28Mar2026 19:10:18.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Sorcerer]
+[28Mar2026 19:10:18.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Reversal Technique Advanced]
+[28Mar2026 19:10:43.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa died
+[28Mar2026 19:10:46.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 19:11:05.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 19:11:08.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Adventure Mode]
+[28Mar2026 19:11:22.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:11:36.852] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nazuna_nanakusa moved too quickly! 8.864255279633028,1.5199999809265137,4.913845085504278
+[28Mar2026 19:12:00.407] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nazuna_nanakusa moved too quickly! 10.05735671223843,2.034268468016819,0.19251100676767408
+[28Mar2026 19:12:06.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 19:12:12.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Observation of the Soul]
+[28Mar2026 19:12:13.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Open]
+[28Mar2026 19:12:13.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Cleave]
+[28Mar2026 19:12:13.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Dismantle]
+[28Mar2026 19:12:13.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Malevolent Shrine]
+[28Mar2026 19:12:18.937] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nazuna_nanakusa moved too quickly! -9.225813960855078,-2.0586016073550866,-4.239779005810206
+[28Mar2026 19:12:22.994] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nazuna_nanakusa was kicked for floating too long!
+[28Mar2026 19:12:23.039] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nazuna_nanakusa lost connection: Flying is not enabled on this server
+[28Mar2026 19:12:23.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nazuna_nanakusa left the game
+[28Mar2026 19:13:14.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to king_by2002]
+[28Mar2026 19:13:34.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed
+[28Mar2026 19:13:38.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed
+[28Mar2026 19:13:42.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed
+[28Mar2026 19:13:49.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed
+[28Mar2026 19:13:57.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed
+[28Mar2026 19:14:02.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:14:15.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:15:45.999] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-497, y=62, z=-130} BlockPos{x=-512, y=68, z=-138}
+[28Mar2026 19:15:46.111] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-497, y=62, z=-130} BlockPos{x=-511, y=68, z=-138}
+[28Mar2026 19:16:16.304] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-497, y=62, z=-130} BlockPos{x=-512, y=68, z=-139}
+[28Mar2026 19:16:24.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Domain Expansion Mastery] to iJFC]
+[28Mar2026 19:16:30.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Domain Expansion Mastered]
+[28Mar2026 19:17:26.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:17:31.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:17:45.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gamerule jujutsuPVP is now set to: true]
+[28Mar2026 19:18:00.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:18:07.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:18:14.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed
+[28Mar2026 19:18:19.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed
+[28Mar2026 19:18:23.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 19:18:23.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed
+[28Mar2026 19:18:28.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed
+[28Mar2026 19:18:32.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed
+[28Mar2026 19:19:31.585] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/57967, l='ServerLevel[world]', x=-519.22, y=71.00, z=-371.79] died, message: 'Cartographer died'
+[28Mar2026 19:19:41.435] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Armorer'/58198, l='ServerLevel[world]', x=-527.28, y=71.96, z=-377.20] died, message: 'Armorer died'
+[28Mar2026 19:19:53.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 18 [Sukuna's Finger] to iJFC]
+[28Mar2026 19:20:34.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported 3 entities to iJFC]
+[28Mar2026 19:20:45.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was doomed to fall by iJFC
+[28Mar2026 19:20:50.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported 3 entities to iJFC]
+[28Mar2026 19:20:54.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:20:57.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported 3 entities to iJFC]
+[28Mar2026 19:21:01.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:21:01.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:21:05.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported 3 entities to iJFC]
+[28Mar2026 19:21:21.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Megumi Fushiguro (Shibuya Incident)]
+[28Mar2026 19:21:25.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Enchai..]
+[28Mar2026 19:21:25.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Enchai..]
+[28Mar2026 19:21:35.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Megumi Fushiguro (Shibuya Incident)]
+[28Mar2026 19:21:37.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:21:37.775] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC lost connection: Disconnected
+[28Mar2026 19:21:37.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC left the game
+[28Mar2026 19:21:51.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:22:56.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died whilst trying to escape king_by2002
+[28Mar2026 19:24:26.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Simple Domain Mastered]
+[28Mar2026 19:24:36.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Semi-Grade 2 Sorcerer]
+[28Mar2026 19:24:39.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:24:50.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Fame -2-]
+[28Mar2026 19:25:29.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Piercing Blood]
+[28Mar2026 19:25:29.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Convergence]
+[28Mar2026 19:25:29.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Semi-Grade 2 Sorcerer]
+[28Mar2026 19:25:42.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Ushi no toki mairi]
+[28Mar2026 19:25:46.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 moved too quickly! 6.596982609136148,-2.0432796451306245,-7.409550132766867
+[28Mar2026 19:27:06.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Instant Spirit Body of Distorted Killing]
+[28Mar2026 19:27:06.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Black Flash]
+[28Mar2026 19:30:40.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:30:53.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Polymorphic Soul Isomer]
+[28Mar2026 19:30:53.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Grade 2 Sorcerer]
+[28Mar2026 19:32:11.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Domain Expansion Mastered]
+[28Mar2026 19:32:22.510] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 moved too quickly! 2.5042476874029944,2.258854733365496,-10.11992628066912
+[28Mar2026 19:32:24.277] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 moved too quickly! -11.261319828227556,0.2691524338927991,-1.8036966845777727
+[28Mar2026 19:32:55.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Hipster]
+[28Mar2026 19:32:55.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Hipster]
+[28Mar2026 19:33:08.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 19:35:33.777] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 lost connection: Disconnected
+[28Mar2026 19:35:33.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 left the game
+[28Mar2026 19:36:46.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Acquire Hardware]
+[28Mar2026 19:38:05.224] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/77003, l='ServerLevel[world]', x=-241.70, y=71.00, z=-784.50] died, message: 'Unemployed died'
+[28Mar2026 19:38:18.980] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/77063, l='ServerLevel[world]', x=-184.35, y=70.00, z=-797.60] died, message: 'Nitwit died'
+[28Mar2026 19:38:26.623] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Mason'/77009, l='ServerLevel[world]', x=-200.45, y=72.00, z=-800.26] died, message: 'Mason died'
+[28Mar2026 19:38:28.222] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/77015, l='ServerLevel[world]', x=-184.90, y=72.00, z=-789.46] died, message: 'Unemployed died'
+[28Mar2026 19:38:40.922] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/77072, l='ServerLevel[world]', x=-190.51, y=71.00, z=-811.99] died, message: 'Fisherman died'
+[28Mar2026 19:38:48.922] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/77073, l='ServerLevel[world]', x=-197.45, y=69.00, z=-844.52] died, message: 'Toolsmith died'
+[28Mar2026 19:39:05.872] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/77014, l='ServerLevel[world]', x=-189.93, y=69.00, z=-776.63] died, message: 'Leatherworker died'
+[28Mar2026 19:39:09.172] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/77008, l='ServerLevel[world]', x=-185.48, y=69.94, z=-786.37] died, message: 'Leatherworker died'
+[28Mar2026 19:39:16.672] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/76988, l='ServerLevel[world]', x=-173.74, y=68.00, z=-775.81] died, message: 'Toolsmith died'
+[28Mar2026 19:42:27.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died whilst trying to escape Moon Dregs
+[28Mar2026 19:45:06.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:45:11.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Domain Amplification Mastered]
+[28Mar2026 19:45:15.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:45:40.378] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 19:45:40.378] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 19:45:40.425] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 19:45:40.425] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 19:45:40.474] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 19:45:40.475] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 19:45:43.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Anemia]
+[28Mar2026 19:46:20.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Twin]
+[28Mar2026 19:48:20.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Mahoraga Spawner]
+[28Mar2026 19:48:37.631] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-500, y=63, z=-129} BlockPos{x=-505, y=65, z=-131}
+[28Mar2026 19:48:54.536] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iJFC[/127.129.252.76:55359] logged in with entity id 89208 at (727.78474096435, 89.8134865670437, 342.9748935978294)
+[28Mar2026 19:48:54.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC joined the game
+[28Mar2026 19:48:54.547] [Server thread/INFO] [Jade/]: Syncing config to iJFC (b55d212c-8aed-37df-8391-d5c8da7babdb)
+[28Mar2026 19:49:17.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:49:28.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Supernova]
+[28Mar2026 19:49:50.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 19:50:58.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Domain Amplification Mastered]
+[28Mar2026 19:51:39.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Justice]
+[28Mar2026 19:51:39.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Semi-Grade 1 Sorcerer]
+[28Mar2026 19:51:39.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Justice]
+[28Mar2026 19:51:39.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:51:43.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -15-]
+[28Mar2026 19:51:43.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Fame -Special-]
+[28Mar2026 19:51:43.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Cursed Spirit -15-]
+[28Mar2026 19:53:42.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 19:53:47.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Adventure Mode]
+[28Mar2026 19:55:13.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Eight Handled Sword Divergent Sila Divine General Mahoraga]
+[28Mar2026 19:55:51.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Strongest Shikigami]
+[28Mar2026 19:56:33.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Ten Shadows Technique]
+[28Mar2026 19:56:33.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Divine Dogs]
+[28Mar2026 19:56:43.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 19:56:47.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Adventure Mode]
+[28Mar2026 19:56:49.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 19:57:17.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Applied effect Zone to iJFC]
+[28Mar2026 19:57:28.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Applied effect Deep Concentration to iJFC]
+[28Mar2026 19:58:08.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Mahoraga: Wheel]
+[28Mar2026 19:58:08.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Force to submit the Mahoraga]
+[28Mar2026 19:58:28.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Force to submit the Tiger Funeral]
+[28Mar2026 19:58:35.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Force to submit the Piercing Ox]
+[28Mar2026 19:58:41.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Force to submit the Round Deer]
+[28Mar2026 19:58:49.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Nue: Titan]
+[28Mar2026 19:58:49.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Force to submit the Nue]
+[28Mar2026 19:58:55.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Force to submit the Great Serpent]
+[28Mar2026 19:59:05.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Force to submit the Toad]
+[28Mar2026 19:59:13.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Max Elephant: Piercing Blood]
+[28Mar2026 19:59:13.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Force to submit the Max Elephant]
+[28Mar2026 19:59:46.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 19:59:53.230] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-504, y=70, z=-133}
+[28Mar2026 20:01:39.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Adventure Mode]
+[28Mar2026 20:01:42.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 20:01:44.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 20:01:50.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Grade 1 Sorcerer]
+[28Mar2026 20:01:57.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Sorcerer]
+[28Mar2026 20:01:58.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 20:02:16.253] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element jujutsucraft:village_heisei took 172 ms
+[28Mar2026 20:02:25.305] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=516}
+[28Mar2026 20:02:25.307] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=516}
+[28Mar2026 20:02:25.307] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=518}
+[28Mar2026 20:02:25.308] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=518}
+[28Mar2026 20:02:25.383] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=508}
+[28Mar2026 20:02:25.384] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=508}
+[28Mar2026 20:02:25.384] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=506}
+[28Mar2026 20:02:25.384] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=506}
+[28Mar2026 20:02:25.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to -3263.500000, 62.000000, -3167.500000]
+[28Mar2026 20:02:25.661] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=494}
+[28Mar2026 20:02:25.662] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=494}
+[28Mar2026 20:02:25.662] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=496}
+[28Mar2026 20:02:25.663] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=496}
+[28Mar2026 20:02:26.144] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=516}
+[28Mar2026 20:02:26.144] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=518}
+[28Mar2026 20:02:26.191] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=508}
+[28Mar2026 20:02:26.192] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=506}
+[28Mar2026 20:02:26.223] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=494}
+[28Mar2026 20:02:26.223] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=496}
+[28Mar2026 20:02:26.238] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=516}
+[28Mar2026 20:02:26.238] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=516}
+[28Mar2026 20:02:26.238] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=516}
+[28Mar2026 20:02:26.238] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=518}
+[28Mar2026 20:02:26.239] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=518}
+[28Mar2026 20:02:26.239] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=518}
+[28Mar2026 20:02:26.306] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=6, z=521}
+[28Mar2026 20:02:26.306] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=6, z=521}
+[28Mar2026 20:02:26.875] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=512}
+[28Mar2026 20:02:26.882] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=6, z=521}
+[28Mar2026 20:02:26.883] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=6, z=521}
+[28Mar2026 20:02:26.926] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-342, y=2, z=533}
+[28Mar2026 20:02:26.926] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=3, z=532}
+[28Mar2026 20:02:26.926] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=5, z=532}
+[28Mar2026 20:02:26.926] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=4, z=530}
+[28Mar2026 20:02:26.927] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=2, z=530}
+[28Mar2026 20:02:26.927] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=2, z=532}
+[28Mar2026 20:02:26.927] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=4, z=533}
+[28Mar2026 20:02:26.928] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=533}
+[28Mar2026 20:02:26.928] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=533}
+[28Mar2026 20:02:26.928] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=531}
+[28Mar2026 20:02:26.928] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=530}
+[28Mar2026 20:02:26.928] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=530}
+[28Mar2026 20:02:26.928] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=532}
+[28Mar2026 20:02:26.929] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-342, y=4, z=529}
+[28Mar2026 20:02:26.929] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=529}
+[28Mar2026 20:02:26.929] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-342, y=2, z=529}
+[28Mar2026 20:02:26.929] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=5, z=529}
+[28Mar2026 20:02:26.929] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=529}
+[28Mar2026 20:02:26.929] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=530}
+[28Mar2026 20:02:26.930] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=529}
+[28Mar2026 20:02:26.930] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=530}
+[28Mar2026 20:02:26.930] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=530}
+[28Mar2026 20:02:26.930] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=529}
+[28Mar2026 20:02:26.930] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=529}
+[28Mar2026 20:02:26.930] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=533}
+[28Mar2026 20:02:26.931] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=532}
+[28Mar2026 20:02:26.931] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=533}
+[28Mar2026 20:02:26.931] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=533}
+[28Mar2026 20:02:26.931] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=532}
+[28Mar2026 20:02:26.931] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=532}
+[28Mar2026 20:02:26.931] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=528}
+[28Mar2026 20:02:26.932] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=528}
+[28Mar2026 20:02:26.932] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=4, z=528}
+[28Mar2026 20:02:26.932] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=5, z=528}
+[28Mar2026 20:02:26.932] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=5, z=528}
+[28Mar2026 20:02:26.932] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=528}
+[28Mar2026 20:02:26.976] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=508}
+[28Mar2026 20:02:26.977] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=508}
+[28Mar2026 20:02:26.978] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=508}
+[28Mar2026 20:02:26.979] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=506}
+[28Mar2026 20:02:26.979] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=506}
+[28Mar2026 20:02:26.979] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=506}
+[28Mar2026 20:02:27.038] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=512}
+[28Mar2026 20:02:27.145] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-339, y=2, z=543}
+[28Mar2026 20:02:27.145] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-339, y=4, z=543}
+[28Mar2026 20:02:27.145] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-339, y=3, z=546}
+[28Mar2026 20:02:27.145] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-339, y=2, z=546}
+[28Mar2026 20:02:27.153] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=540}
+[28Mar2026 20:02:27.153] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=539}
+[28Mar2026 20:02:27.154] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=538}
+[28Mar2026 20:02:27.154] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=537}
+[28Mar2026 20:02:27.154] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=536}
+[28Mar2026 20:02:27.154] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=536}
+[28Mar2026 20:02:27.154] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=536}
+[28Mar2026 20:02:27.155] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=537}
+[28Mar2026 20:02:27.155] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=538}
+[28Mar2026 20:02:27.155] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=539}
+[28Mar2026 20:02:27.155] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=540}
+[28Mar2026 20:02:27.155] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=540}
+[28Mar2026 20:02:27.155] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=536}
+[28Mar2026 20:02:27.156] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=535}
+[28Mar2026 20:02:27.156] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=536}
+[28Mar2026 20:02:27.156] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=536}
+[28Mar2026 20:02:27.156] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=535}
+[28Mar2026 20:02:27.156] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=535}
+[28Mar2026 20:02:27.157] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=539}
+[28Mar2026 20:02:27.157] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=538}
+[28Mar2026 20:02:27.157] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=539}
+[28Mar2026 20:02:27.158] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=539}
+[28Mar2026 20:02:27.158] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=538}
+[28Mar2026 20:02:27.158] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=538}
+[28Mar2026 20:02:27.158] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=543}
+[28Mar2026 20:02:27.158] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=3, z=543}
+[28Mar2026 20:02:27.159] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-342, y=3, z=543}
+[28Mar2026 20:02:27.159] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=543}
+[28Mar2026 20:02:27.159] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=543}
+[28Mar2026 20:02:27.159] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=543}
+[28Mar2026 20:02:27.159] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=3, z=543}
+[28Mar2026 20:02:27.160] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=543}
+[28Mar2026 20:02:27.160] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=5, z=543}
+[28Mar2026 20:02:27.160] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=4, z=543}
+[28Mar2026 20:02:27.160] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-342, y=4, z=543}
+[28Mar2026 20:02:27.160] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=4, z=543}
+[28Mar2026 20:02:27.161] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=543}
+[28Mar2026 20:02:27.161] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=543}
+[28Mar2026 20:02:27.161] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=543}
+[28Mar2026 20:02:27.161] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=543}
+[28Mar2026 20:02:27.161] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=543}
+[28Mar2026 20:02:27.161] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=5, z=543}
+[28Mar2026 20:02:27.162] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=5, z=543}
+[28Mar2026 20:02:27.162] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=543}
+[28Mar2026 20:02:27.162] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=543}
+[28Mar2026 20:02:27.162] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-342, y=5, z=543}
+[28Mar2026 20:02:27.162] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=5, z=543}
+[28Mar2026 20:02:27.162] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=6, z=543}
+[28Mar2026 20:02:27.162] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-342, y=6, z=543}
+[28Mar2026 20:02:27.163] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=5, z=543}
+[28Mar2026 20:02:27.163] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=6, z=543}
+[28Mar2026 20:02:27.163] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=6, z=543}
+[28Mar2026 20:02:27.163] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=6, z=543}
+[28Mar2026 20:02:27.163] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=6, z=543}
+[28Mar2026 20:02:27.163] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=6, z=543}
+[28Mar2026 20:02:27.164] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-350, y=3, z=543}
+[28Mar2026 20:02:27.164] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-350, y=2, z=543}
+[28Mar2026 20:02:27.164] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=549}
+[28Mar2026 20:02:27.165] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=2, z=549}
+[28Mar2026 20:02:27.165] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=549}
+[28Mar2026 20:02:27.165] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=548}
+[28Mar2026 20:02:27.166] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=548}
+[28Mar2026 20:02:27.166] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=548}
+[28Mar2026 20:02:27.166] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=548}
+[28Mar2026 20:02:27.166] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=548}
+[28Mar2026 20:02:27.167] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=549}
+[28Mar2026 20:02:27.167] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=549}
+[28Mar2026 20:02:27.167] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=2, z=549}
+[28Mar2026 20:02:27.168] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=3, z=546}
+[28Mar2026 20:02:27.175] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-342, y=3, z=546}
+[28Mar2026 20:02:27.176] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=546}
+[28Mar2026 20:02:27.176] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=546}
+[28Mar2026 20:02:27.176] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=546}
+[28Mar2026 20:02:27.177] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=3, z=546}
+[28Mar2026 20:02:27.177] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=546}
+[28Mar2026 20:02:27.178] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=546}
+[28Mar2026 20:02:27.178] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=5, z=546}
+[28Mar2026 20:02:27.178] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-342, y=5, z=546}
+[28Mar2026 20:02:27.179] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=546}
+[28Mar2026 20:02:27.179] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=5, z=546}
+[28Mar2026 20:02:27.180] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=546}
+[28Mar2026 20:02:27.180] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=5, z=546}
+[28Mar2026 20:02:27.181] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=5, z=546}
+[28Mar2026 20:02:27.181] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=5, z=546}
+[28Mar2026 20:02:27.182] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-350, y=4, z=546}
+[28Mar2026 20:02:27.182] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-350, y=2, z=546}
+[28Mar2026 20:02:27.451] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=508}
+[28Mar2026 20:02:27.451] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=508}
+[28Mar2026 20:02:27.452] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=516}
+[28Mar2026 20:02:27.452] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=516}
+[28Mar2026 20:02:27.452] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=518}
+[28Mar2026 20:02:27.452] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=518}
+[28Mar2026 20:02:27.480] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=508}
+[28Mar2026 20:02:27.480] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=516}
+[28Mar2026 20:02:27.480] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=518}
+[28Mar2026 20:02:27.492] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-341, y=6, z=521}
+[28Mar2026 20:02:27.492] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-345, y=6, z=521}
+[28Mar2026 20:02:27.492] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=512}
+[28Mar2026 20:02:27.739] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=494}
+[28Mar2026 20:02:27.739] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=494}
+[28Mar2026 20:02:27.739] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=494}
+[28Mar2026 20:02:27.739] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=496}
+[28Mar2026 20:02:27.740] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=496}
+[28Mar2026 20:02:27.740] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=496}
+[28Mar2026 20:02:28.017] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=687}
+[28Mar2026 20:02:28.017] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=687}
+[28Mar2026 20:02:28.017] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=685}
+[28Mar2026 20:02:28.018] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=685}
+[28Mar2026 20:02:28.019] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=683}
+[28Mar2026 20:02:28.019] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=685}
+[28Mar2026 20:02:28.019] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=685}
+[28Mar2026 20:02:28.019] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=683}
+[28Mar2026 20:02:28.020] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=683}
+[28Mar2026 20:02:28.020] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=683}
+[28Mar2026 20:02:28.020] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=681}
+[28Mar2026 20:02:28.020] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=681}
+[28Mar2026 20:02:28.020] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=681}
+[28Mar2026 20:02:28.020] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=681}
+[28Mar2026 20:02:28.021] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=679}
+[28Mar2026 20:02:28.021] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=679}
+[28Mar2026 20:02:28.021] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=679}
+[28Mar2026 20:02:28.021] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=679}
+[28Mar2026 20:02:28.055] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=671}
+[28Mar2026 20:02:28.056] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=671}
+[28Mar2026 20:02:28.056] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=671}
+[28Mar2026 20:02:28.057] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=671}
+[28Mar2026 20:02:28.057] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=669}
+[28Mar2026 20:02:28.057] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=669}
+[28Mar2026 20:02:28.058] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=677}
+[28Mar2026 20:02:28.058] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=677}
+[28Mar2026 20:02:28.058] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=677}
+[28Mar2026 20:02:28.059] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=677}
+[28Mar2026 20:02:28.059] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=675}
+[28Mar2026 20:02:28.060] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=675}
+[28Mar2026 20:02:28.060] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=675}
+[28Mar2026 20:02:28.061] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=675}
+[28Mar2026 20:02:28.061] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=673}
+[28Mar2026 20:02:28.061] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=673}
+[28Mar2026 20:02:28.062] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=673}
+[28Mar2026 20:02:28.062] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=673}
+[28Mar2026 20:02:28.096] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=556}
+[28Mar2026 20:02:28.096] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=555}
+[28Mar2026 20:02:28.096] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=557}
+[28Mar2026 20:02:28.096] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=558}
+[28Mar2026 20:02:28.097] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=558}
+[28Mar2026 20:02:28.097] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=556}
+[28Mar2026 20:02:28.097] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=557}
+[28Mar2026 20:02:28.097] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=555}
+[28Mar2026 20:02:28.098] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=555}
+[28Mar2026 20:02:28.098] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=556}
+[28Mar2026 20:02:28.098] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=557}
+[28Mar2026 20:02:28.098] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=558}
+[28Mar2026 20:02:28.098] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=2, z=552}
+[28Mar2026 20:02:28.099] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=552}
+[28Mar2026 20:02:28.099] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=552}
+[28Mar2026 20:02:28.099] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=552}
+[28Mar2026 20:02:28.099] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=551}
+[28Mar2026 20:02:28.099] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=2, z=551}
+[28Mar2026 20:02:28.100] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=551}
+[28Mar2026 20:02:28.100] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=550}
+[28Mar2026 20:02:28.100] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=551}
+[28Mar2026 20:02:28.100] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=551}
+[28Mar2026 20:02:28.100] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=2, z=550}
+[28Mar2026 20:02:28.100] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=3, z=560}
+[28Mar2026 20:02:28.100] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=560}
+[28Mar2026 20:02:28.101] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=560}
+[28Mar2026 20:02:28.101] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=560}
+[28Mar2026 20:02:28.101] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=5, z=560}
+[28Mar2026 20:02:28.101] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=5, z=560}
+[28Mar2026 20:02:28.101] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-350, y=5, z=560}
+[28Mar2026 20:02:28.101] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-350, y=4, z=560}
+[28Mar2026 20:02:28.102] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=4, z=560}
+[28Mar2026 20:02:28.102] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=560}
+[28Mar2026 20:02:28.102] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-350, y=3, z=560}
+[28Mar2026 20:02:28.102] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=560}
+[28Mar2026 20:02:28.102] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=560}
+[28Mar2026 20:02:28.102] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=2, z=560}
+[28Mar2026 20:02:28.103] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=560}
+[28Mar2026 20:02:28.103] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=560}
+[28Mar2026 20:02:29.905] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=494}
+[28Mar2026 20:02:29.906] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=494}
+[28Mar2026 20:02:29.906] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=506}
+[28Mar2026 20:02:29.907] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=506}
+[28Mar2026 20:02:29.908] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=496}
+[28Mar2026 20:02:29.908] [Worker-Main-61/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=496}
+[28Mar2026 20:02:29.935] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=494}
+[28Mar2026 20:02:29.936] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=506}
+[28Mar2026 20:02:29.936] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=496}
+[28Mar2026 20:02:31.154] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/103020, l='ServerLevel[world]', x=-3251.80, y=64.25, z=-3129.55] died, message: 'Jujutsu Sorcerer died'
+[28Mar2026 20:02:32.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set the weather to clear]
+[28Mar2026 20:02:35.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set the time to 1000]
+[28Mar2026 20:02:38.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported uekee340 to iJFC]
+[28Mar2026 20:03:21.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Clap]
+[28Mar2026 20:03:21.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Clap]
+[28Mar2026 20:03:31.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Removed every effect from iJFC]
+[28Mar2026 20:03:54.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Six Eyes Mastery] to iJFC]
+[28Mar2026 20:05:03.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 20:05:16.686] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/103848, l='ServerLevel[world]', x=-3271.63, y=64.00, z=-3040.35] died, message: 'Jujutsu Sorcerer died'
+[28Mar2026 20:05:17.588] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/103668, l='ServerLevel[world]', x=-3174.40, y=64.00, z=-3205.70] died, message: 'Leatherworker died'
+[28Mar2026 20:05:23.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 20:05:24.337] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/103598, l='ServerLevel[world]', x=-3331.30, y=64.00, z=-3113.30] died, message: 'Jujutsu Sorcerer died'
+[28Mar2026 20:06:14.848] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/103603, l='ServerLevel[world]', x=-3236.81, y=63.00, z=-3162.19] died, message: 'Leatherworker died'
+[28Mar2026 20:06:26.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Judgment]
+[28Mar2026 20:06:33.771] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/104168, l='ServerLevel[world]', x=-3331.43, y=64.00, z=-3100.43] died, message: 'Leatherworker died'
+[28Mar2026 20:06:53.964] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved wrongly!
+[28Mar2026 20:06:56.882] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/104169, l='ServerLevel[world]', x=-3329.80, y=65.00, z=-3113.58] died, message: 'Butcher died'
+[28Mar2026 20:06:56.883] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/103826, l='ServerLevel[world]', x=-3330.52, y=65.00, z=-3115.53] died, message: 'Leatherworker died'
+[28Mar2026 20:06:59.834] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/103827, l='ServerLevel[world]', x=-3328.35, y=64.00, z=-3097.46] died, message: 'Unemployed died'
+[28Mar2026 20:07:15.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Subjugation Mission -Forest-]
+[28Mar2026 20:07:15.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Subjugation Mission -Forest-]
+[28Mar2026 20:08:34.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 20:09:18.982] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:18.983] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.133] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.133] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.287] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.287] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.432] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.432] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.584] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.584] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.733] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.733] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.884] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:19.884] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.039] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.040] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.186] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.187] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.328] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.328] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.511] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.511] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.631] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.631] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.780] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:20.780] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:09:42.183] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/103533, l='ServerLevel[world]', x=-3290.68, y=65.00, z=-3211.19] died, message: 'Leatherworker died'
+[28Mar2026 20:09:42.184] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/103534, l='ServerLevel[world]', x=-3291.46, y=65.00, z=-3209.84] died, message: 'Leatherworker died'
+[28Mar2026 20:09:48.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 20:09:48.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Applied effect Deep Concentration to iJFC]
+[28Mar2026 20:10:05.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to -3263.500000, 68.000000, -3167.500000]
+[28Mar2026 20:10:09.334] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/116025, l='ServerLevel[world]', x=-3187.22, y=63.00, z=-3104.78] died, message: 'Jujutsu Sorcerer died'
+[28Mar2026 20:10:12.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported uekee340 to iJFC]
+[28Mar2026 20:10:28.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Applied effect Deep Concentration to iJFC]
+[28Mar2026 20:12:01.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 20:12:07.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 20:12:11.930] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/115903, l='ServerLevel[world]', x=-3236.30, y=64.56, z=-3115.74] died, message: 'Butcher died'
+[28Mar2026 20:12:59.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Removed effect Deep Concentration from iJFC]
+[28Mar2026 20:13:33.262] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2446ms or 48 ticks behind
+[28Mar2026 20:13:52.631] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:13:52.631] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:13:52.781] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:13:52.781] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:13:52.933] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:13:52.933] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:08.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Cursed Technique Changer] to uekee340]
+[28Mar2026 20:14:12.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Cursed Spirit Manipulation]
+[28Mar2026 20:14:12.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Maximum: Uzumaki]
+[28Mar2026 20:14:44.226] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.226] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.279] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.279] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.327] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.327] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.379] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.379] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.432] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.432] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.476] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.476] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.526] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.526] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.576] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.576] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.628] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.629] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.688] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.688] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.730] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.730] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.777] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:14:44.777] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:15:12.388] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/116019, l='ServerLevel[world]', x=-3174.96, y=63.00, z=-3168.51] died, message: 'Fisherman died'
+[28Mar2026 20:15:12.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Cursed Spirit -9-]
+[28Mar2026 20:15:12.921] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/116361, l='ServerLevel[world]', x=-3182.98, y=65.00, z=-3110.59] died, message: 'Jujutsu Sorcerer died'
+[28Mar2026 20:15:38.489] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/125701, l='ServerLevel[world]', x=-3229.51, y=64.00, z=-2975.46] died, message: 'Jujutsu Sorcerer died'
+[28Mar2026 20:15:43.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gamerule gTGetoExtension is now set to: true]
+[28Mar2026 20:15:46.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gamerule gTGetoExtension2 is now set to: true]
+[28Mar2026 20:15:51.691] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/116317, l='ServerLevel[world]', x=-3211.50, y=65.00, z=-3036.50] died, message: 'Leatherworker died'
+[28Mar2026 20:16:15.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 20:17:01.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Cursed Spirit -3-]
+[28Mar2026 20:17:01.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -3-]
+[28Mar2026 20:17:38.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Mahito]
+[28Mar2026 20:19:32.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to -3263.500000, 61.000000, -3167.500000]
+[28Mar2026 20:19:35.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 20:19:38.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Inverse]
+[28Mar2026 20:19:42.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported uekee340 to iJFC]
+[28Mar2026 20:19:44.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 20:20:48.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -16-]
+[28Mar2026 20:20:48.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Cursed Spirit -16-]
+[28Mar2026 20:20:55.640] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:20:55.640] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:21:25.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 20:21:48.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 20:22:09.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported uekee340 to iJFC]
+[28Mar2026 20:22:33.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [The Boxer]
+[28Mar2026 20:22:33.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [The Boxer]
+[28Mar2026 20:22:51.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Unusual Abilities]
+[28Mar2026 20:23:02.430] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/134562, l='ServerLevel[world]', x=-3184.27, y=68.00, z=-3139.70] died, message: 'Jujutsu Sorcerer died'
+[28Mar2026 20:24:50.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Dagon]
+[28Mar2026 20:24:51.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Subjugation Mission -Sea-]
+[28Mar2026 20:24:51.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Subjugation Mission -Sea-]
+[28Mar2026 20:24:55.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Dagon]
+[28Mar2026 20:25:36.083] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 moved too quickly! -5.97712887875241,5.1691585564613405,12.442110602236426
+[28Mar2026 20:26:20.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Mahito]
+[28Mar2026 20:26:33.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Subjugation Mission -Human-]
+[28Mar2026 20:26:33.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Subjugation Mission -Human-]
+[28Mar2026 20:26:45.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Rika]
+[28Mar2026 20:27:20.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Jogo]
+[28Mar2026 20:27:36.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Subjugation Mission -Earth-]
+[28Mar2026 20:27:36.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Subjugation Mission -Earth-]
+[28Mar2026 20:28:11.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Six Eyes]
+[28Mar2026 20:28:57.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Panda]
+[28Mar2026 20:28:57.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Panda]
+[28Mar2026 20:29:55.125] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/134652, l='ServerLevel[world]', x=-3224.41, y=65.00, z=-3031.40] died, message: 'Cartographer died'
+[28Mar2026 20:33:01.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [The Tiger of Minecraft]
+[28Mar2026 20:33:01.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [The Tiger of Minecraft]
+[28Mar2026 20:36:18.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Throughout the Heavens and Earth, I Alone am the Honored One]
+[28Mar2026 20:36:18.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Throughout the Heavens and Earth, I Alone am the Honored One]
+[28Mar2026 20:36:28.377] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:28.378] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:28.428] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:28.429] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.728] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.728] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.779] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.780] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.829] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.829] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.886] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.886] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.931] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.931] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.982] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:29.983] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.031] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.032] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.079] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.079] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.127] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.127] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.198] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.199] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.233] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.233] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.279] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.279] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.328] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.328] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.376] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.376] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.431] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:36:30.431] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:05.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Naoya Zenin]
+[28Mar2026 20:38:09.121] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.121] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.272] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.272] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.426] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.426] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.573] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.573] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.721] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.721] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.873] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:09.873] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:10.022] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:10.022] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:10.172] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:10.172] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:10.321] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:10.321] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:10.472] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:10.472] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:10.622] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:10.622] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:38:28.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [You did it!]
+[28Mar2026 20:38:28.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [You did it!]
+[28Mar2026 20:38:49.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Re-Creation]
+[28Mar2026 20:38:49.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Re-Creation]
+[28Mar2026 20:39:46.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Subjugation Mission -Frozen Star-]
+[28Mar2026 20:39:46.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Subjugation Mission -Frozen Star-]
+[28Mar2026 20:39:50.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Cutie Honey]
+[28Mar2026 20:39:50.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Cutie Honey]
+[28Mar2026 20:39:59.829] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC lost connection: Timed out
+[28Mar2026 20:39:59.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC left the game
+[28Mar2026 20:40:09.085] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iJFC[/127.129.252.76:45827] logged in with entity id 163503 at (-3254.9642417311857, 58.0, -3147.846508937863)
+[28Mar2026 20:40:09.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC joined the game
+[28Mar2026 20:40:09.136] [Server thread/INFO] [Jade/]: Syncing config to iJFC (b55d212c-8aed-37df-8391-d5c8da7babdb)
+[28Mar2026 20:41:29.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Mahoraga Spawner]
+[28Mar2026 20:42:31.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Satoru Gojo]
+[28Mar2026 20:42:32.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 20:42:43.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Removed effect Fatigue from iJFC]
+[28Mar2026 20:42:49.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Removed effect Fatigue from iJFC]
+[28Mar2026 20:42:54.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported uekee340 to iJFC]
+[28Mar2026 20:45:27.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Removed effect Brain Damage from 2 targets]
+[28Mar2026 20:53:16.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 20:53:25.529] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC lost connection: Timed out
+[28Mar2026 20:53:25.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC left the game
+[28Mar2026 20:53:35.135] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iJFC[/127.129.252.76:54841] logged in with entity id 183248 at (-3249.2799059034155, 58.519999980926514, -3146.699999988079)
+[28Mar2026 20:53:35.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC joined the game
+[28Mar2026 20:53:35.171] [Server thread/INFO] [Jade/]: Syncing config to iJFC (b55d212c-8aed-37df-8391-d5c8da7babdb)
+[28Mar2026 20:54:08.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported uekee340 to iJFC]
+[28Mar2026 20:54:18.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 20:56:20.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 was kicked for floating too long!
+[28Mar2026 20:56:20.279] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 lost connection: Flying is not enabled on this server
+[28Mar2026 20:56:20.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 left the game
+[28Mar2026 20:56:30.563] [ForkJoinPool.commonPool-worker-15/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:uekee340'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md1439ef$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:596) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:596) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md1439ef$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:580) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[28Mar2026 20:56:30.585] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: uekee340[/127.79.218.166:50163] logged in with entity id 189319 at (-3202.8362752821813, 83.77244284708736, -3238.0240673241146)
+[28Mar2026 20:56:30.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 joined the game
+[28Mar2026 20:56:30.616] [Server thread/INFO] [Jade/]: Syncing config to uekee340 (0bc62d06-0901-38a9-b1d6-aefe5bf603a6)
+[28Mar2026 20:57:45.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Naoya]
+[28Mar2026 20:58:59.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Principal]
+[28Mar2026 20:59:43.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:59:43.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:59:44.085] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 20:59:44.086] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:00:41.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported uekee340 to iJFC]
+[28Mar2026 21:01:06.984] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:06.984] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:07.069] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:07.070] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:07.139] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:07.140] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:07.283] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:07.284] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:07.436] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:07.436] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:07.584] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:07.584] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:01:44.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 21:01:53.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 21:02:28.132] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:28.132] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:28.770] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:28.770] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:28.837] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:28.837] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:28.912] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:28.912] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.032] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.034] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.176] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.176] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.325] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.325] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.476] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.476] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.624] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.625] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.775] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.776] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.924] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:29.924] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:30.075] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:30.075] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:30.225] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:02:30.225] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:03:49.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Battle Junkie]
+[28Mar2026 21:04:45.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Removed effect Fatigue from iJFC]
+[28Mar2026 21:05:16.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Subjugation Mission -Rozetsu-]
+[28Mar2026 21:05:16.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Subjugation Mission -Rozetsu-]
+[28Mar2026 21:05:37.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Sukuna]
+[28Mar2026 21:06:42.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 21:06:53.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 21:06:58.839] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2773ms or 55 ticks behind
+[28Mar2026 21:07:01.842] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-507, y=67, z=-136}
+[28Mar2026 21:07:02.315] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-508, y=68, z=-136}
+[28Mar2026 21:07:31.391] [ForkJoinPool.commonPool-worker-17/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:king_by2002'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md1439ef$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:596) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:596) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md1439ef$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:580) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[28Mar2026 21:07:31.432] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: king_by2002[/127.215.206.44:43665] logged in with entity id 216493 at (-438.5606275774585, 66.0, -29.75928589074607)
+[28Mar2026 21:07:31.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 joined the game
+[28Mar2026 21:07:31.449] [Server thread/INFO] [Jade/]: Syncing config to king_by2002 (2794b990-d76d-3e59-8014-374b2b82c1b7)
+[28Mar2026 21:07:51.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Open Barrier Domain Expansion]
+[28Mar2026 21:07:55.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Countermeasures: Open Barrier Domain Expansion]
+[28Mar2026 21:08:02.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Open Barrier Domain Expansion]
+[28Mar2026 21:08:03.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Countermeasures: Open Barrier Domain Expansion]
+[28Mar2026 21:08:15.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 21:09:22.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 21:09:32.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Grade 2 Sorcerer]
+[28Mar2026 21:09:38.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Semi-Grade 1 Sorcerer]
+[28Mar2026 21:09:39.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Blood Waves]
+[28Mar2026 21:09:39.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Supernova]
+[28Mar2026 21:09:39.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Grade 1 Sorcerer]
+[28Mar2026 21:10:00.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Special Grade Sorcerer]
+[28Mar2026 21:10:47.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Open Barrier Domain Expansion]
+[28Mar2026 21:10:48.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Countermeasures: Open Barrier Domain Expansion]
+[28Mar2026 21:10:49.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 21:11:18.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Sukuna]
+[28Mar2026 21:12:18.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 21:12:26.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 21:12:27.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 21:12:30.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! -7.859819574248377,5.612354183571028,3.6605034869268707
+[28Mar2026 21:12:31.234] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2418ms or 48 ticks behind
+[28Mar2026 21:12:32.449] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! -4.230267173321465,-0.15000000596046448,-9.457233780700676
+[28Mar2026 21:12:45.994] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:12:45.995] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:12:53.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 21:12:56.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[28Mar2026 21:13:05.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Domain Amplification Mastered]
+[28Mar2026 21:13:20.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 21:13:32.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Sun, Moon, and Stars Squad]
+[28Mar2026 21:13:38.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Fame -1-]
+[28Mar2026 21:13:38.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Fame -Special-]
+[28Mar2026 21:14:10.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Cursed Spirit -6-]
+[28Mar2026 21:14:18.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Junpei]
+[28Mar2026 21:14:29.725] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:14:29.725] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:14:38.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [I'm a Sandwich Person]
+[28Mar2026 21:15:33.220] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[28Mar2026 21:15:35.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 21:15:37.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 21:16:00.608] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12393ms or 247 ticks behind
+[28Mar2026 21:16:23.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Satoru Gojo]
+[28Mar2026 21:16:37.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 21:17:21.820] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[28Mar2026 21:17:26.919] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/223853, l='ServerLevel[world]', x=-493.50, y=49.00, z=-416.50] died, message: 'Unemployed died'
+[28Mar2026 21:17:38.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 21:17:42.294] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[28Mar2026 21:18:06.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Twin]
+[28Mar2026 21:18:20.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 21:18:24.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 21:18:38.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Bomber]
+[28Mar2026 21:18:38.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Bomber]
+[28Mar2026 21:18:55.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 was killed whilst fighting Toshihisa Negi
+[28Mar2026 21:19:16.833] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:16.833] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:16.946] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:16.946] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.276] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.276] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.327] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.327] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.380] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.380] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.430] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.430] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.478] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.478] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.528] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.528] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.582] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.582] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.632] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.632] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.682] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.683] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.729] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.729] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.781] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.781] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.828] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.828] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.879] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.880] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.928] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:19.928] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:20.028] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:20.029] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:20.079] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:20.079] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:20.128] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:20.128] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:20.179] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:19:20.179] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:20:09.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Naoya]
+[28Mar2026 21:20:27.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 21:20:40.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 21:20:44.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Completely Physically Gifted]
+[28Mar2026 21:20:49.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 21:21:12.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 21:21:23.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Hunger for Luck]
+[28Mar2026 21:22:28.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Subjugation Mission -Kenjaku-]
+[28Mar2026 21:22:38.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 21:22:39.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -10-]
+[28Mar2026 21:23:04.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 21:23:11.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Spectator Mode]
+[28Mar2026 21:23:12.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[28Mar2026 21:23:14.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[28Mar2026 21:23:28.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Tug-of-War ]
+[28Mar2026 21:23:51.362] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved wrongly!
+[28Mar2026 21:23:56.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to king_by2002]
+[28Mar2026 21:24:03.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Justice]
+[28Mar2026 21:24:15.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Special Grade Cursed Spirit -15-]
+[28Mar2026 21:24:37.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 21:25:22.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Junpei]
+[28Mar2026 21:25:59.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -6-]
+[28Mar2026 21:26:01.897] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 moved too quickly! 6.369387688604547,0.0,-7.739443804548678
+[28Mar2026 21:26:01.922] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2706ms or 54 ticks behind
+[28Mar2026 21:26:16.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[28Mar2026 21:26:21.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[28Mar2026 21:26:24.877] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-511, y=62, z=-128}
+[28Mar2026 21:27:07.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Satoru Gojo]
+[28Mar2026 21:27:27.730] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 lost connection: Disconnected
+[28Mar2026 21:27:27.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 left the game
+[28Mar2026 21:28:36.162] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! 8.090276050260343,4.17860003948212,-21.25242627634765
+[28Mar2026 21:28:59.558] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! -12.40908370706353,4.17860003948212,13.594617035695364
+[28Mar2026 21:29:06.223] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:29:06.223] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:29:06.376] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:29:06.376] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:29:06.525] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:29:06.525] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:29:06.676] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:29:06.677] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:29:09.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Special Grade Cursed Spirit -6-]
+[28Mar2026 21:29:19.250] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! -1.0234346440976196,5.263496503541774,8.600193430982813
+[28Mar2026 21:31:21.994] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! -10.728684804914565,4.17860003948212,-20.050274600558623
+[28Mar2026 21:31:37.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! -4.108990387528138,1.740862440710771,-16.75580933146898
+[28Mar2026 21:31:37.541] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:31:37.541] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:31:54.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Summoned new Sukuna]
+[28Mar2026 21:32:20.791] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2675ms or 53 ticks behind
+[28Mar2026 21:32:22.476] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:32:22.476] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Mar2026 21:32:24.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[28Mar2026 21:32:30.636] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC lost connection: Disconnected
+[28Mar2026 21:32:30.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC left the game
+[28Mar2026 21:32:46.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[28Mar2026 21:32:46.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Mar2026 21:32:46.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Mar2026 21:32:46.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Mar2026 21:32:46.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[28Mar2026 21:32:47.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[28Mar2026 21:32:47.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/jujutsucraft:cursed_spirit_manipulation_dimension
+[28Mar2026 21:32:48.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[28Mar2026 21:32:48.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[28Mar2026 21:32:48.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Mar2026 21:32:48.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cursed_spirit_manipulation_dimension): All chunks are saved
+[28Mar2026 21:32:48.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Mar2026 21:32:48.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[28Mar2026 21:32:48.225] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs

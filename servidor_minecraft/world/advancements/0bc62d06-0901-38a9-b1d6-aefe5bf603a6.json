@@ -1,0 +1,837 @@
+{
+  "jujutsucraft:jujutsu_craft_skills": {
+    "criteria": {
+      "jujutsu_craft_skills_0": "2026-03-28 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_divine_dog_totality": {
+    "criteria": {
+      "skill_divine_dog_totality_0": "2026-03-28 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsu_kaisen_gt_2:jujutsu_craft_gt": {
+    "criteria": {
+      "jujutsu_craft_gt_0": "2026-03-28 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-03-28 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsu_kaisen_gt_2:jujutsu_craft_gt_skill": {
+    "criteria": {
+      "jujutsu_craft_gt_skill_0": "2026-03-28 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_merged_beast_agito": {
+    "criteria": {
+      "skill_merged_beast_agito_0": "2026-03-28 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_advancements": {
+    "criteria": {
+      "battle_advancements_0": "2026-03-28 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:start_jujutsu_craft": {
+    "criteria": {
+      "start_jujutsu_craft_0": "2026-03-28 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsu_kaisen_gt_2:regular_sorcerers": {
+    "criteria": {
+      "regular_sorcerers_0": "2026-03-28 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsu_kaisen_gt_2:advancement_tutorial": {
+    "criteria": {
+      "advancement_tutorial_0": "2026-03-28 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2026-03-28 19:40:29 +0000",
+      "minecraft:frozen_river": "2026-03-28 19:05:31 +0000",
+      "minecraft:bamboo_jungle": "2026-03-28 20:44:11 +0000",
+      "minecraft:sparse_jungle": "2026-03-28 20:02:45 +0000",
+      "minecraft:river": "2026-03-28 20:23:38 +0000",
+      "minecraft:snowy_plains": "2026-03-28 18:43:13 +0000",
+      "minecraft:snowy_taiga": "2026-03-28 19:39:55 +0000",
+      "minecraft:frozen_ocean": "2026-03-28 19:14:14 +0000",
+      "minecraft:deep_frozen_ocean": "2026-03-28 19:14:53 +0000",
+      "minecraft:windswept_forest": "2026-03-28 19:40:13 +0000",
+      "minecraft:jungle": "2026-03-28 20:24:12 +0000",
+      "minecraft:snowy_beach": "2026-03-28 18:58:53 +0000",
+      "minecraft:plains": "2026-03-28 20:02:38 +0000"
+    },
+    "done": false
+  },
+  "jujutsucraft:advancement_select_technique": {
+    "criteria": {
+      "advancement_select_technique_0": "2026-03-28 18:46:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-03-28 18:48:31 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_ten_shadows_technique": {
+    "criteria": {
+      "skill_ten_shadows_technique_0": "2026-03-28 18:48:57 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_divine_dogs": {
+    "criteria": {
+      "skill_divine_dogs_0": "2026-03-28 18:48:57 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:reverse_cursed_technique_1": {
+    "criteria": {
+      "reverse_cursed_technique_1_0": "2026-03-28 18:50:35 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_rabbit_escape": {
+    "criteria": {
+      "skill_rabbit_escape_0": "2026-03-28 18:50:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-03-28 18:50:39 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_mahito": {
+    "criteria": {
+      "skill_mahito_0": "2026-03-28 18:55:07 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:fame_3": {
+    "criteria": {
+      "fame_3_0": "2026-03-28 18:55:08 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:fame_4": {
+    "criteria": {
+      "fame_4_0": "2026-03-28 18:55:08 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_4": {
+    "criteria": {
+      "sorcerer_grade_4_0": "2026-03-28 18:56:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2026-03-28 18:56:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2026-03-28 18:56:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2026-03-28 18:56:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cod": "2026-03-28 18:56:51 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-03-28 18:56:51 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_haruta_shigemo": {
+    "criteria": {
+      "battle_haruta_shigemo_0": "2026-03-28 18:57:54 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:reverse_cursed_technique_2": {
+    "criteria": {
+      "reverse_cursed_technique_2_0": "2026-03-28 18:58:04 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:advancement_insect": {
+    "criteria": {
+      "advancement_insect_0": "2026-03-28 19:01:01 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_toshihisa_negi": {
+    "criteria": {
+      "battle_toshihisa_negi_0": "2026-03-28 19:02:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2026-03-28 19:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2026-03-28 19:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2026-03-28 19:05:23 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:fame_2": {
+    "criteria": {
+      "fame_2_0": "2026-03-28 19:05:26 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:fame_1": {
+    "criteria": {
+      "fame_1_0": "2026-03-28 19:05:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-03-28 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-03-28 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-03-28 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-03-28 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-03-28 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-03-28 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-03-28 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-03-28 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-03-28 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2026-03-28 19:06:40 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_soul_multiplicity": {
+    "criteria": {
+      "skill_soul_multiplicity_0": "2026-03-28 19:07:25 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_3": {
+    "criteria": {
+      "sorcerer_grade_3_0": "2026-03-28 19:07:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_leggings": "2026-03-28 19:13:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_leggings": "2026-03-28 19:13:45 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_megumi_fushiguro_shibuya": {
+    "criteria": {
+      "battle_megumi_fushiguro_shibuya_0": "2026-03-28 19:21:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2026-03-28 19:22:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2026-03-28 19:22:09 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:mastery_simple_domain": {
+    "criteria": {
+      "mastery_simple_domain_0": "2026-03-28 19:24:26 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_2_semi": {
+    "criteria": {
+      "sorcerer_grade_2_semi_0": "2026-03-28 19:24:36 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_nobara_kugisaki": {
+    "criteria": {
+      "battle_nobara_kugisaki_0": "2026-03-28 19:25:42 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_instant_spirit_bodyof_distorted_killing": {
+    "criteria": {
+      "skill_instant_spirit_bodyof_distorted_killing_0": "2026-03-28 19:27:06 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:black_flash": {
+    "criteria": {
+      "black_flash_0": "2026-03-28 19:27:06 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_2": {
+    "criteria": {
+      "sorcerer_grade_2_0": "2026-03-28 19:30:53 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_polymorphic_soul_isomer": {
+    "criteria": {
+      "skill_polymorphic_soul_isomer_0": "2026-03-28 19:30:53 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:mastery_domain_expansion": {
+    "criteria": {
+      "mastery_domain_expansion_0": "2026-03-28 19:32:11 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_kasumi_miwa": {
+    "criteria": {
+      "battle_kasumi_miwa_0": "2026-03-28 19:32:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-28 19:36:46 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:mastery_domain_amplification": {
+    "criteria": {
+      "mastery_domain_amplification_0": "2026-03-28 19:45:11 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_noritoshi_kamo": {
+    "criteria": {
+      "battle_noritoshi_kamo_0": "2026-03-28 19:45:43 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_mimiko_nanako": {
+    "criteria": {
+      "battle_mimiko_nanako_0": "2026-03-28 19:46:20 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_megumi_fushiguro": {
+    "criteria": {
+      "battle_megumi_fushiguro_0": "2026-03-28 19:48:20 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_1_semi": {
+    "criteria": {
+      "sorcerer_grade_1_semi_0": "2026-03-28 19:51:39 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_suguru_geto_2": {
+    "criteria": {
+      "battle_suguru_geto_2_0": "2026-03-28 19:51:39 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_cursed_spirit_grade_special_15": {
+    "criteria": {
+      "battle_cursed_spirit_grade_special_15_0": "2026-03-28 19:51:43 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:fame_special": {
+    "criteria": {
+      "fame_special_0": "2026-03-28 19:51:43 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_mahoraga": {
+    "criteria": {
+      "battle_mahoraga_0": "2026-03-28 19:55:51 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_1": {
+    "criteria": {
+      "sorcerer_grade_1_0": "2026-03-28 20:01:50 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_special": {
+    "criteria": {
+      "sorcerer_grade_special_0": "2026-03-28 20:01:57 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_aoi_todo": {
+    "criteria": {
+      "battle_aoi_todo_0": "2026-03-28 20:03:21 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_hanami": {
+    "criteria": {
+      "battle_hanami_0": "2026-03-28 20:07:15 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_geto": {
+    "criteria": {
+      "skill_geto_0": "2026-03-28 20:14:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_maximum_uzumaki": {
+    "criteria": {
+      "skill_maximum_uzumaki_0": "2026-03-28 20:14:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_cursed_spirit_grade_special_9": {
+    "criteria": {
+      "battle_cursed_spirit_grade_special_9_0": "2026-03-28 20:15:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_cursed_spirit_grade_special_3": {
+    "criteria": {
+      "battle_cursed_spirit_grade_special_3_0": "2026-03-28 20:17:01 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_jiro_awasaka": {
+    "criteria": {
+      "battle_jiro_awasaka_0": "2026-03-28 20:19:38 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_cursed_spirit_grade_special_16": {
+    "criteria": {
+      "battle_cursed_spirit_grade_special_16_0": "2026-03-28 20:20:48 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_jinichi_zenin": {
+    "criteria": {
+      "battle_jinichi_zenin_0": "2026-03-28 20:22:33 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_yuta_okkotsu_2": {
+    "criteria": {
+      "battle_yuta_okkotsu_2_0": "2026-03-28 20:22:51 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_dagon": {
+    "criteria": {
+      "battle_dagon_0": "2026-03-28 20:24:51 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_mahito": {
+    "criteria": {
+      "battle_mahito_0": "2026-03-28 20:26:33 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_jogo": {
+    "criteria": {
+      "battle_jogo_0": "2026-03-28 20:27:36 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:advancement_six_eyes": {
+    "criteria": {
+      "advancement_six_eyes_0": "2026-03-28 20:28:11 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_panda": {
+    "criteria": {
+      "battle_panda_0": "2026-03-28 20:28:57 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_yuji_itadori": {
+    "criteria": {
+      "battle_yuji_itadori_0": "2026-03-28 20:33:01 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_satoru_gojo": {
+    "criteria": {
+      "battle_satoru_gojo_0": "2026-03-28 20:36:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2026-03-28 20:37:06 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_naoya_zenin_cursed_spirit": {
+    "criteria": {
+      "battle_naoya_zenin_cursed_spirit_0": "2026-03-28 20:38:28 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_reggie_star": {
+    "criteria": {
+      "battle_reggie_star_0": "2026-03-28 20:38:49 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_uraume": {
+    "criteria": {
+      "battle_uraume_0": "2026-03-28 20:39:46 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_larue": {
+    "criteria": {
+      "battle_larue_0": "2026-03-28 20:39:50 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:update": {
+    "criteria": {
+      "update_0": "2026-03-28 21:26:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2026-03-28 20:44:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2026-03-28 20:44:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2026-03-28 20:44:24 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_kenjaku": {
+    "criteria": {
+      "battle_kenjaku_0": "2026-03-28 21:22:28 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_naobito_zenin": {
+    "criteria": {
+      "battle_naobito_zenin_0": "2026-03-28 21:23:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2026-03-28 21:01:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:mastery_open_barrier_type_domain": {
+    "criteria": {
+      "mastery_open_barrier_type_domain_0": "2026-03-28 21:07:51 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_hajime_kashimo": {
+    "criteria": {
+      "battle_hajime_kashimo_0": "2026-03-28 21:03:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2026-03-28 21:01:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_cursed_spirit_grade_special_6": {
+    "criteria": {
+      "battle_cursed_spirit_grade_special_6_0": "2026-03-28 21:14:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2026-03-28 21:01:12 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_masamichi_yaga": {
+    "criteria": {
+      "battle_masamichi_yaga_0": "2026-03-28 20:58:59 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_iori_hazenoki": {
+    "criteria": {
+      "battle_iori_hazenoki_0": "2026-03-28 21:18:38 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_maki_zenin": {
+    "criteria": {
+      "battle_maki_zenin_0": "2026-03-28 20:57:45 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_rozetsu": {
+    "criteria": {
+      "battle_rozetsu_0": "2026-03-28 21:05:16 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:anti_open_barrier_type_domain": {
+    "criteria": {
+      "anti_open_barrier_type_domain_0": "2026-03-28 21:07:55 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
